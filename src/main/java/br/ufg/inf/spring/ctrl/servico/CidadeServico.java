@@ -34,6 +34,7 @@ public class CidadeServico {
 		
 		List<Cidade> list = negocio.findAllSimples();
 		return ResponseEntity.ok().body(list);
+		
 	}
 	
 	@GetMapping(value="/{id}")
